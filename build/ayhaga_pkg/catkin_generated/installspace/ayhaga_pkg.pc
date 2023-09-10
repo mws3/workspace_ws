@@ -1,0 +1,8 @@
+prefix=/home/mohamed/workspace_ws/install
+
+Name: ayhaga_pkg
+Description: Description of ayhaga_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

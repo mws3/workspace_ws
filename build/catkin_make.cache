@@ -1,0 +1,2 @@
+simple_topic_pub_py
+-DCATKIN_DEVEL_PREFIX=/home/mohamed/workspace_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mohamed/workspace_ws/install -G Unix Makefiles
