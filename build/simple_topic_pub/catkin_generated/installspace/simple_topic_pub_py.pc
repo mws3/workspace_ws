@@ -1,0 +1,8 @@
+prefix=/home/mohamed/workspace_ws/install
+
+Name: simple_topic_pub_py
+Description: Description of simple_topic_pub_py
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

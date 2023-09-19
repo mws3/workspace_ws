@@ -9,6 +9,9 @@ project(simple_topic_pub_py)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   rospy
+  roscpp
+  std_msgs
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -202,3 +205,8 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+add_executable(vel src/vel.cpp)
+target_link_libraries(vel ${catkin_LIBRARIES})
+
+add_executable(pose src/pose.cpp)
+target_link_libraries(pose ${catkin_LIBRARIES})

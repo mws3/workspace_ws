@@ -1,0 +1,8 @@
+prefix=/home/mohamed/workspace_ws/install
+
+Name: custom_msg
+Description: Description of custom_msg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs message_runtime
